@@ -1,0 +1,1 @@
+/home/GoTools/_go1.11.2.linux-amd64.002.dir.txt
