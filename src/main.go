@@ -99,7 +99,7 @@ func onDraw(glctx gl.Context, sz size.Event) {
 	select {
 	case <-determined:
 		if ok {
-			glctx.ClearColor(0, 1, 0, 1)
+			glctx.ClearColor(0, 1, 0, 1) // ClearColor(red, green, blue, alpha float32)
 		} else {
 			glctx.ClearColor(1, 0, 0, 1)
 		}
