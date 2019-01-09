@@ -16,6 +16,9 @@ license that can be found in the LICENSE file.
 	     http://developer.android.com/guide/topics/manifest/manifest-intro.html#perms -->
 	<uses-permission android:name="android.permission.INTERNET" />
 
+    <!-- for write the '/sdcard/l.txt'  -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
 	<application android:label="network" android:debuggable="true">
 
 	<activity android:name="org.golang.app.GoNativeActivity"
